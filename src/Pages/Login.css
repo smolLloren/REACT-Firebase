@@ -1,0 +1,51 @@
+@import url('../Components/Navbar.css');
+
+.login-page {
+    height: 100vh;
+    padding-top: 80px;
+    background-color: #303030;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-page .inputs-container {
+    margin-top: -100px;
+    height: 60%;
+    width: 500px;
+    border-radius: 5px;
+    background-color: var(--navTxtColor);
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-page .inputs-container .inputs {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 5px 0;
+    gap: 5px;
+}
+
+.login-page .inputs-container .inputs input {
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.login-page .inputs-container button {
+    margin-top: 10px;
+    width: 100%;
+    background-color: var(--navBG-color);
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-page .inputs-container button:hover {
+    background-color: rgb(85, 85, 85);
+    color: var(--navTxtColor);
+}
+
